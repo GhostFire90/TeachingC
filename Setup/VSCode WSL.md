@@ -10,6 +10,8 @@ Along with this just for ease of access we will be installing C/C++ Extension pa
 
 1. on the left side of the screen you will see a sidebar with these symbols, click the bottom one that looks like Tetris blocks, this is the *Extension Menu*
    ![Sidebar](sidebar.png)
-   2. It will look something like this, in the search bar look up C/C++ Extension Pack, click it, click install, do the same for the WSL extension and restart your VS
-![Extension Menu](extension_menu.png)
-3. Open the *Remote Explorer* Tab,
+   2. It will look something like this, in the search bar look up C/C++ Extension Pack, click it, click install, do the same for the WSL extension and restart your VScode
+    ![Extension Menu](extension_menu.png)
+3. Open the *Remote Explorer* Tab, looks like a monitor with a circle and the symbol 
+   \>< inside of it, and then press the window with + icon next to Ubuntu default distro This will open a new window connected to wsl, and you can go from there, Once this is working, youre all done!
+   ![Remote Explorer](remotes.png)
