@@ -2,5 +2,7 @@ Hello! If you've found this without me giving you the link, good for you. This i
 
 # Setup
 These are the guides you should follow for setting up the environment needed for most of these guides
-1. [Setup WSL](./Setup/Setup_WSL.md)
-2. 
+1. [Setup WSL](<./Setup/Setup WSL.md>)
+2. [Install Compilers](./Setup/Compilers.md)
+3. [VSCode with WSL](<./Setup/VSCode WSL.md>)
+
