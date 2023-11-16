@@ -8,4 +8,7 @@ You can get VSCode [here](https://code.visualstudio.com/download)
 In this guide we will be installing a plugin called WSL in vscode which automatically connects to and uses WSL's terminal environment
 Along with this just for ease of access we will be installing C/C++ Extension pack
 
-1. 
+1. on the left side of the screen you will see a sidebar with these symbols, click the bottom one that looks like Tetris blocks, this is the *Extension Menu*
+   ![Sidebar](sidebar.png)
+   2. It will look something like this, in the search bar look up C/C++ Extension Pack, click it, click install, do the same for the WSL extension
+      ![Extension Menu](extension_menu.png)
