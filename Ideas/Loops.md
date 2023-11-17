@@ -46,9 +46,8 @@ So what if you *don't* know when a loop should end? Like waiting on a user to en
 ```c
 #include <stdio.h> // for printf
 
-char c = 'A'; // Since we havent covered user input yet, this is a placeholder value
-
 int main(void){
+	char c = 'A'; // Since we havent covered user input yet, this is a placeholder value
 	while(c != 'B'){
 		printf("%c", c);
 		// Get user input here!
@@ -56,3 +55,5 @@ int main(void){
 }
 
 ```
+
+This reads like "While c is *not* contain the value 'B' keep printing c and getting new user input"
