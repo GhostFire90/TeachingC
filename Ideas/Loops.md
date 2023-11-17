@@ -37,5 +37,12 @@ Lets break this down. `int i = 0` is the initialization this happens once, we cr
 
 Then finally `i++` This runs after the code in the curly braces gets run, basically what it means is after the code runs, add 1 to i.
 
-### Pros
-For-loops are mostly used for when you know when the loop needs to end, how many
+### Use cases
+- When you know the code you're running needs to run $n$ times
+- Moving through an [Array](./Arrays.md)
+
+## While Loops
+So what if you *don't* know when a loop should end? Like waiting on a user to enter a certain input
+```c
+
+```
