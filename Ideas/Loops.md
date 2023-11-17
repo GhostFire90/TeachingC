@@ -44,5 +44,15 @@ Then finally `i++` This runs after the code in the curly braces gets run, basica
 ## While Loops
 So what if you *don't* know when a loop should end? Like waiting on a user to enter a certain input
 ```c
+#include <stdio.h> // for printf
+
+char c = 'A'; // Since we havent covered user input yet, this is a placeholder value
+
+int main(void){
+	while(c != 'B'){
+		printf("%c", c);
+		// Get user input here!
+	}
+}
 
 ```
