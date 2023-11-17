@@ -31,4 +31,11 @@ int main(void){
 }
 ```
 
-Lets break this down. `int i = 0` is the initialization, we create a new variable named i and set it to 0. `i < 10` thi
+Lets break this down. `int i = 0` is the initialization this happens once, we create a new variable named i and set it to 0. 
+
+`i < 10` this checks if i is still less than 10 this runs before the code every loop, if it is, it runs the code in the curly braces. 
+
+Then finally `i++` This runs after the code in the curly braces gets run, basically what it means is after the code runs, add 1 to i.
+
+### Pros
+For-loops are mostly used for when you know when the loop needs to end, how many
