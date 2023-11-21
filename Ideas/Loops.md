@@ -37,6 +37,18 @@ Lets break this down. `int i = 0` is the initialization this happens once, we cr
 
 Then finally `i++` This runs after the code in the curly braces gets run, basically what it means is after the code runs, add 1 to i.
 
+another valid example:
+```c
+#include <stdio.h> // for printf
+int main(void){
+	int i; //create i;
+	for(i = 0; i < 10; i++){
+		printf("Hello");
+	}	
+}
+
+```
+
 ### Use cases
 - When you know the code you're running needs to run $n$ times
 - Moving through an [Array](./Arrays.md)
