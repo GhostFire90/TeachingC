@@ -48,7 +48,7 @@ int main(void){
 }
 
 ```
-
+This works because you dont need to create the variable in the for loop, there are some other shenanigans that will be explained in [Extended Loops](./ExtendedLoops.md)
 ### Use cases
 - When you know the code you're running needs to run $n$ times
 - Moving through an [Array](./Arrays.md)
