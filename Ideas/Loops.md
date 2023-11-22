@@ -79,8 +79,26 @@ int main(void){
 	}
 }
 ```
-Since as we covered in [Variables](/Ideas/Variables.md), any value that *isn't* 0, is considered true, the condition will always be true
+Since as we covered in [Variables](/Ideas/Variables.md#Boolean), any value that *isn't* 0, is considered true, the condition will always be true
 
 ### Use Cases
 - When you're not sure how many times a loop needs to run
 - Infinite loops
+
+## Continue and Break
+
+Sometimes in loops, you want to skip an entry or maybe stop the loop early all together. In c, this is as easy as either using `continue` or `break` 
+
+
+### Continue
+```c
+
+for(int i = 0; i < 10; i++){
+	if(i == 5){
+		continue;
+	}
+	// do something
+}
+
+```
+This code is very simple, basically it reads as "do something"
