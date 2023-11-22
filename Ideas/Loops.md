@@ -91,8 +91,9 @@ Sometimes in loops, you want to skip an entry or maybe stop the loop early all t
 
 
 ### Continue
-```c
 
+Continue, essentially skips all code *underneath* it and continues onto the next loop
+```c
 for(int i = 0; i < 10; i++){
 	if(i == 5){
 		continue;
@@ -101,4 +102,18 @@ for(int i = 0; i < 10; i++){
 }
 
 ```
-This code is very simple, basically it reads as "do something"
+This code is very simple, basically it reads as "do something® 10 times, and skip the 5th one"
+
+### Break
+
+Break also skips all code below it but instead of continuing to the next loop, it just stops the loop in its tracks
+```c
+for(int i = 0; i < 10; i++){
+	if(i == 5){
+		break;
+	}
+	// do something
+}
+
+```
+This code is also very simple, it reads as "do something® 10 times, but stop on the 5th one"
