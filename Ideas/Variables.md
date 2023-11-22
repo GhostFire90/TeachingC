@@ -33,3 +33,24 @@ What it stores: Any number that doesn't contain decimal points
 ### Float
 Type in c: `float`
 What it stores: Any number, can also contain decimals
+
+### Character 
+Type in c: `char`
+What it stores: a character but it also doubles as an integer that can only store 0-255
+
+## Pseudo types
+
+These are types that *technically* don't exist, but C is implemented in a way where they are still available
+
+### Boolean
+What is it: Usually represents true or false
+What is it in C: Any value that **IS NOT** equal to 0, is true, and 0 is false
+Use case: used primarily in if statements, while and for loops
+
+### Strings
+What is it: text that is made up of more than 1 character
+What is it in C: `char*` usually, also commonly `const char*` 
+S
+
+
+
