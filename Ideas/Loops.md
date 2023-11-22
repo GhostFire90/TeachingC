@@ -48,10 +48,11 @@ int main(void){
 }
 
 ```
-This works because you dont need to create the variable in the for loop, there are some other shenanigans that will be explained in [Extended Loops](./ExtendedLoops.md)
+This works because you dont need to create the variable in the for loop, there are some other shenanigans that will be explained in [Extended Loops](</Ideas/Extended Loops.md>)
+
 ### Use cases
 - When you know the code you're running needs to run $n$ times
-- Moving through an [Array](./Arrays.md)
+- Moving through an [Array](/Ideas/Arrays.md)
 
 ## While Loops
 So what if you *don't* know when a loop should end? Like waiting on a user to enter a certain input
@@ -69,3 +70,17 @@ int main(void){
 ```
 
 This reads like "While c is *not* contain the value 'B' keep printing c and getting new user input"
+
+Maybe you want a loop to never end? (very slim use cases)
+```c
+int main(void){
+	while(1){
+		//do stuff here
+	}
+}
+```
+Since as we covered in [Variables](/Ideas/Variables.md), any value that *isn't* 0, is considered true, the condition will always be true
+
+### Use Cases
+- When you're not sure how many times a loop needs to run
+- Infinite loops
