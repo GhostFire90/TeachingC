@@ -38,6 +38,10 @@ What it stores: Any number, can also contain decimals
 Type in c: `char`
 What it stores: a character but it also doubles as an integer that can only store 0-255
 
+### Pointer
+Type in c: any type-name followed by a `*`
+Explanation is in the [Pointer](/Ideas/Pointers.md) page as they are quite complicated
+
 ## Pseudo types
 
 These are types that *technically* don't exist, but C is implemented in a way where they are still available
