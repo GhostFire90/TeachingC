@@ -40,7 +40,7 @@ What it stores: a character but it also doubles as an integer that can only stor
 
 ### Pointer
 Type in c: any type-name followed by a `*`
-Explanation is in the [Pointer](</Ideas/Pointers.md>) page as they are quite complicated
+Explanation is in the [Pointer](<./Pointers.md>) page as they are quite complicated
 
 ## Pseudo types
 
@@ -54,8 +54,8 @@ Use case: used primarily in if statements, while and for loops
 ### Strings
 What is it: text that is made up of more than 1 character
 What is it in C: `char*` usually, also commonly `const char*` 
-[Strings](/Ideas/Strings.md) have their own page that will cover more about the specifics of strings
-What does the `*` symbol mean? That marks a variable as a Pointer, we will cover that in the later [Pointer](/Ideas/Pointers.md) page
+[Strings](<./Strings.md>) have their own page that will cover more about the specifics of strings
+What does the `*` symbol mean? That marks a variable as a Pointer, we will cover that in the later [Pointer](<./Pointers.md>) page
 
 
 
