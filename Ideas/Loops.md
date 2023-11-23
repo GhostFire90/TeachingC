@@ -52,7 +52,7 @@ This works because you dont need to create the variable in the for loop, there a
 
 ### Use cases
 - When you know the code you're running needs to run $n$ times
-- Moving through an [Array](/Ideas/Arrays.md)
+- Moving through an [Array](</Ideas/Arrays.md>)
 
 ## While Loops
 So what if you *don't* know when a loop should end? Like waiting on a user to enter a certain input

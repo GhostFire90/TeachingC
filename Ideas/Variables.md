@@ -40,7 +40,7 @@ What it stores: a character but it also doubles as an integer that can only stor
 
 ### Pointer
 Type in c: any type-name followed by a `*`
-Explanation is in the [Pointer](./Pointers.md) page as they are quite complicated
+Explanation is in the [Pointer](</Ideas/Pointers.md>) page as they are quite complicated
 
 ## Pseudo types
 
