@@ -10,6 +10,7 @@ int b;
 int c;
 int d;
 ```
+
 we could have an array of integers that is 4 big
 ```c
 int abcd[4];
