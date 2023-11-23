@@ -19,8 +19,9 @@ int abcd[4];
 
 ## How do we use this?
 Arrays you cant reference exactly like variables, they are laid out sorta like this
-|  0  |  1  |  2  |  3  |
-|  ---  |  ---  |  ---  |  ---  |
-|  ...  |  ...  |  ...  |  ...  |
+
+| 0 | 1 | 2 | 3 |
+|---|---|---|---|
+| ... | ... | ... | ... |
 
 
