@@ -79,7 +79,7 @@ int main(void){
 	}
 }
 ```
-Since as we covered in [Variables](/Ideas/Variables.md#Boolean), any value that *isn't* 0, is considered true, the condition will always be true
+Since as we covered in [Variables](<./Variables.md#Boolean>), any value that *isn't* 0, is considered true, the condition will always be true
 
 ### Use Cases
 - When you're not sure how many times a loop needs to run
