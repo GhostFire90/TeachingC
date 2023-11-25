@@ -6,5 +6,11 @@ These are the guides you should follow for setting up the environment needed for
 2. [Install Compilers](./Setup/Compilers.md)
 3. [VSCode with WSL](<./Setup/VSCode WSL.md>)
 
+# First Steps
 
+Before checking out [Lab1](<./Labs/Lab1.md>) I highly recommend reading:
+1. [Variables](<./Ideas/Variables.md>)
+2. [Loops](<./Ideas/Loops.md>)
+3
+4. [The Main function](<./Explanations/MainFunction.md>)
 
