@@ -46,6 +46,6 @@ It is important to only access at most the ($n-1$)th element, as the "length" of
 | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---| --- |
 | first | second | third | fourth | __**FIFTH**__ |
-notice how if we accessed `array[4]` wed be trying to read the FIFTH element? remember there are only 4 elements in the array. 
+notice how if we accessed `array[4]` wed be trying to read the FIFTH element? remember there are only 4 elements in the array. In most cases 
 
 
