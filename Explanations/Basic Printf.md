@@ -1,4 +1,5 @@
-`printf` is one of the most important functions included in C. Its, as it is named, prints stuff to the screen.
+`printf` is one of the most important functions included in C. Its, as it is named, prints stuff to the screen. `#include <stdio.h>` is *required* before your main function, we will cover what this does and why in [Includes](<./../Ideas/Includes.md>)
+
 ```c
 int main(void){
 	printf("Hello World!");
@@ -75,3 +76,7 @@ printf("%.10f", 1.111111111111111f);
 # Arguments
 
 Up to this point we've only used 2 arguments for printf, however it can have anywhere from 0 to $\infty$ as long as there are enough specifiers for it, $n$ specifiers means $n+1$ arguments (+1 for the format string). The way it achieves this is called [Variadic Functions](<./../Ideas/Variadic Functions.md>) and are a complex topic that will be covered later.
+
+## Extra info
+
+To Create a new line put `\n` in the format string where you want to make a new line
