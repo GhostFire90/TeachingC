@@ -12,5 +12,5 @@ Before checking out [Lab1](<./Labs/Lab1.md>) I highly recommend reading:
 1. [Variables](<./Ideas/Variables.md>)
 2. [Loops](<./Ideas/Loops.md>)
 3. [The Main function](Main%20Function.md)
-4. [Printf Basics](Basic%20Printf.md)
+4. [Printf Basics](<./Explanations/Basic%20Printf.md>)
 
