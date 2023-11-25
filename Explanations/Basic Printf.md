@@ -37,4 +37,19 @@ below is a table of type specifiers
 | d | Integer value, outputted in decimal |
 | x | Integer value, outputted in hex |
 | c | Character value, outputted in ascii |
-| s | 
+| s | const char* value, outputs a nul-terminated [String](<./../Ideas/String.md>) |
+| p | [Pointer](<./../Ideas/Pointers.md), outputs the address |
+| f | Floating point value (double OR float) |
+
+However thats not all the format specifier can do. 
+Lets say you wanted a specific number of characters taken up by your print?
+say like
+```
+       100
+```
+where the total number of characters printed is 10, 7 spaces and 3 digits
+if you put any number in FRONT of the type specifier, that will be the *minimum* of characters printed
+
+```c
+printf("%10d", 100);
+```
