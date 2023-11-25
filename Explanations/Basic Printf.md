@@ -48,8 +48,29 @@ say like
        100
 ```
 where the total number of characters printed is 10, 7 spaces and 3 digits
-if you put any number in FRONT of the type specifier, that will be the *minimum* of characters printed
+if you put any number, this is called the *width*, in FRONT of the type specifier, that will be the *minimum* of characters printed
 
 ```c
 printf("%10d", 100);
 ```
+what if you want it to be padded by 0's? like so
+```
+0000000100
+```
+so instead of spaces you want to fill it with zeros (note this only works with zeros), you put a 0 before the width. 
+```c
+printf("%010d", 100);
+```
+
+You can do similar with how many digits of precision (how many decimal places) in a floating point number to print (default is 6)
+```
+1.1111111111
+```
+that is 10 digits after the decimal point, you would put a width specifier AFTER a decimal point
+```c
+printf("%.10f", 1.111111111111111f);
+```
+
+# Arguments
+
+Up to this point we've only used 2 arguments for printf, however it can have anywhere from 0 to $\infty$ as long as there are enough
