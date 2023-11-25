@@ -7,7 +7,9 @@ First go to "Turn windows Features on or off"
 
 ![WindowsFeatures](<./WindowsFeatures.png>)
   
-
+scroll down until you see "Windows Subsystem For Linux"
+![WSL check](<./WSL_InFeatures.png>)
+Check the checkmark and restart your pc, then continue with the next steps
 
 Setting up WSL is a lot easier than it used to be, as long as you don't have it already installed, all you need to do is run the below command in the powershell program, if you are familiar with linux distros, the automatically installed distro is Ubuntu
 ```PowerShell
