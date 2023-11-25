@@ -28,6 +28,7 @@ printf("%i", a);
 ```c
 printf("%d", a);
 ```
+the string in the quotes is the only *required* argument for printf, it is called the **Format String**
 
 below is a table of type specifiers
 
@@ -73,4 +74,4 @@ printf("%.10f", 1.111111111111111f);
 
 # Arguments
 
-Up to this point we've only used 2 arguments for printf, however it can have anywhere from 0 to $\infty$ as long as there are enough
+Up to this point we've only used 2 arguments for printf, however it can have anywhere from 0 to $\infty$ as long as there are enough specifiers for it, $n$ specifiers means $n+1$ arguments (+1 for the format string). The way it achieves this is called [Variadic Functions](<./../Ideas/Variadic Functions.md>) and are a complex topic that will be covered later.
