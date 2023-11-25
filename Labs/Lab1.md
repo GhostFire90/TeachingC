@@ -23,5 +23,10 @@ Using the information provided above, use a for loop to print the following
 
 compile with the command
 ```bash
-clang <filename> -Wall -Wextra -o lab
+clang <filename> -Wall -Wextra -o lab1.out
 ```
+and run with
+```bash
+./lab1.out
+```
+
