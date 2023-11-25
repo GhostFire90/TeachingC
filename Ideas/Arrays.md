@@ -30,6 +30,22 @@ So, lets break this down. Once an array is created we use the square brackets (`
 |---|---|---|---|
 | first | second | third | fourth |
 
-notice how the first element is at index 0, most programming languages do it like this so its good to recognize and remember. There are some underlaying reasons as to why, which we will explain in [Pointers](<./Pointers.md>) ()
+notice how the first element is at index 0, most programming languages do it like this so its good to recognize and remember. There are some underlaying reasons as to why, which we will explain in [Pointers](<./Pointers.md>). 
+
+in an array of $n$ elements, it would be
+
+| 0 | 1 | 2 | 3 | ... | n-1 |
+| --- | --- | --- | --- | --- | --- |
+| first | second | third | fourth | ... | nth |
+
+
+## Safety concerns
+
+It is important to only access at most the ($n-1$)th element, as the "length" of an array is the initial (take 4) subtracted by 1 since we start at 0
+
+| 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---| --- |
+| first | second | third | fourth | __**FIFTH**__ |
+notice how if we accessed `array[4]` wed be trying to read the FIFTH element? remember there are only 4 elements in the array. 
 
 
