@@ -19,10 +19,17 @@ it follows the same formula of, `<typename> <varname>` however, what is this `[4
 ## How do we use this?
 The example array above contains 4 integers, but they don't have names, so how would we access them?
 
-Arrays are 
+say we wanted to set the *first* element in the array
+```c
+array[0] = 42; //Notice how i used 0
+```
+
+So, lets break this down. Once an array is created we use the square brackets (`[]`) to access the elements inside of it, the number inside the square brackets is called an *Index*, Our array is laid out like this
 
 | 0 | 1 | 2 | 3 |
 |---|---|---|---|
-| ... | ... | ... | ... |
+| first | second | third | fourth |
+
+notice how the first element is at index 0, most programming languages do it like this so its good to recognize and remember. There are some underlaying reasons as to why, which we will explain in [Pointers](<./Pointers.md>) ()
 
 
