@@ -1,0 +1,1 @@
+Every C program needs a *main* function. we  
