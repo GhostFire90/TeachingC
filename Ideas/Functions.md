@@ -1,0 +1,1 @@
+Functions, similar to loops, is a way to repeat the same section of code
