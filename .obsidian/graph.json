@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -15,37 +15,37 @@
       }
     },
     {
-      "query": "path:Explanations  ",
+      "query": "path:Ideas  ",
       "color": {
         "a": 1,
-        "rgb": 16749748
+        "rgb": 677119
       }
     },
     {
-      "query": "path:Ideas ",
+      "query": "path:Explanations  ",
       "color": {
         "a": 1,
-        "rgb": 5413856
+        "rgb": 5431394
       }
     },
     {
       "query": "path:Setup  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 16730071
       }
     }
   ],
   "collapse-display": true,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.642222222222222,
-  "repelStrength": 13.9111111111111,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 307,
-  "scale": 1.3573465037742758,
+  "linkDistance": 250,
+  "scale": 1.3573465037742742,
   "close": false
 }

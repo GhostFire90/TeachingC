@@ -4,27 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e25b12ac4c89e636",
+        "id": "5e32e95a472fccbb",
         "type": "tabs",
         "children": [
           {
-            "id": "c4fba208fc3733c7",
+            "id": "e360194175550c46",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "7f0a81112482db03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ideas/Functions.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ]
@@ -150,19 +138,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4fba208fc3733c7",
+  "active": "e360194175550c46",
   "lastOpenFiles": [
+    "Ideas/Strings.md",
     "Ideas/Functions.md",
+    "Setup/remotes.png",
     "Ideas/Extended Loops.md",
     "Ideas/Loops.md",
-    "Ideas/Strings.md",
     "Ideas/Variables.md",
     "Ideas/Arrays.md",
     "Explanations/Basic Printf.md",
     "Explanations/Main Function.md",
     "README.md",
     "Setup/Setup WSL.md",
-    "Setup/remotes.png",
     "Setup/WSL_InFeatures.png",
     "Setup/WindowsFeatures.png",
     "Labs/Lab1.md",
