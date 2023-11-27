@@ -7,7 +7,7 @@ int main(void){
 }
 ```
 
-so what does it mean? Similar to [variables](<./Variables.md>)  it starts with a type, then the name of the function, but what's `(void)` mean? So the main function in this context is a special case, but essentially what you put in there follows the same convention as creating a variable, and essentially works like that as well. Lets look at a more standard function declaration
+so what does it mean? Similar to [variables](<./Variables.md>)  it starts with a [return](#Return) type, then the name of the function, but what's `(void)` mean? So the main function in this context is a special case, but essentially what you put in there follows the same convention as creating a variable, and essentially works like that as well. Lets look at a more standard function declaration
 
 ```c
 int foo(int bar){
@@ -32,5 +32,15 @@ foo(42);
 // etc...
 ```
 
-So what if we want the function to calculate so
+So what if we want the function to calculate something and give the calculated value back?
+
+## Return
+
+Say you want a function to take a number $n$ and square it ($n*n$), this is obviously easy but putting $n*n$ all over your code can make it look messy and hard to read, so lets create a function for it!
+```c
+int square(int n){
+	// what to do here?
+}
+```
+sure we can just put $n*n$ but then what? that wont give us any value back as n is a copy of whatever is passed in (Deeper explanation in [Pointers](<./Pointers.md>)), this is where the `return` statement comes in. As I mentioned previously the type-name is called the *return typer* 
 
