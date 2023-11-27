@@ -52,3 +52,11 @@ int square(int n){
 
 Return statements have a special use as well, similar to [break](<./Loops.md#Break>), wherever it is called, the function immediately ends. 
 
+now instead of using $n*n$ in your code all over the place you can instead do 
+```c
+int a = square(n); // a is now the square of n
+int b = square(5); // b is now the square of 5, so 25, etc
+```
+
+
+
