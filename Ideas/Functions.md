@@ -42,5 +42,13 @@ int square(int n){
 	// what to do here?
 }
 ```
-sure we can just put $n*n$ but then what? that wont give us any value back as n is a copy of whatever is passed in (Deeper explanation in [Pointers](<./Pointers.md>)), this is where the `return` statement comes in. As I mentioned previously the type-name is called the *return typer* 
+sure we can just put $n*n$ but then what? that wont give us any value back as n is a copy of whatever is passed in (Deeper explanation in [Pointers](<./Pointers.md>)), this is where the `return` statement comes in. As I mentioned previously the type-name is called the *return type* this tells the user (and the compiler) what is expected for the function to give back, in this case an `int`
+```c
+// n is an integer, so squaring it should result in an int, so the return type is int
+int square(int n){
+	return (n*n); // Whatever is placed after the return is the value returned
+}
+```
+
+Return statements have a special use as well, similar to [break](<./Loops.md#Break>), wherever it is called, the function immediately ends. 
 
