@@ -67,3 +67,15 @@ foo(a);
 ```
 When creating a function you HAVE to specify the type vs when you call the function you don't. However if you try to call a function with the wrong argument type **YOUR PROGRAM WILL NOT COMPILE**
 
+But arguments are essentially variables local ONLY to the function, and what gets passed in when they are called gets COPIED and the variable gets set to it, so 
+
+```c
+int foo(int a){
+	a = 5;
+	return 0;
+}
+int a = 0;
+
+
+
+```
