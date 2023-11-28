@@ -100,4 +100,26 @@ both of these functions do the same thing, however for the user of the function 
 
 ### Returns in void functions
 
-Return in void acts the same way as previously, stopping the function, however yo
+Return in void acts the same way as previously, stopping the function, however you cannot supply a value to it
+
+```c
+void foo(int a){
+
+	if(a > 5){
+		return;
+	}
+	printf("%d", a);
+
+}
+foo(0);
+foo(1);
+foo(2);
+foo(3);
+foo(4);
+foo(5);
+```
+
+> [!question]- What would this print?
+> 01234
+
+
