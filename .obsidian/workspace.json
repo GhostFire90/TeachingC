@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "687908fefb7b35c7",
+    "id": "53674d2db2507be3",
     "type": "split",
     "children": [
       {
-        "id": "c0ec2e56aa3dae80",
+        "id": "2881b5fe70541be4",
         "type": "tabs",
         "children": [
           {
-            "id": "e18aba51b440a303",
+            "id": "f98fcbaec74ff7cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ddb464fb06efd360",
+    "id": "ac7c86f87047cd23",
     "type": "split",
     "children": [
       {
-        "id": "42e3ed4b8d7ac62e",
+        "id": "d0f0e23cc45116d5",
         "type": "tabs",
         "children": [
           {
-            "id": "e366518df41e4e16",
+            "id": "a2dbe21390134eb9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "3bbdf5d679c75cfb",
+            "id": "3244d4f67a336c9a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "90d5aed4a682dc68",
+            "id": "1ade9fbdcac44c93",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,15 +72,15 @@
     "width": 300
   },
   "right": {
-    "id": "89633579e97ad7af",
+    "id": "f86c5a500498c218",
     "type": "split",
     "children": [
       {
-        "id": "573701ab4d6e6e26",
+        "id": "9257df40ee1528c3",
         "type": "tabs",
         "children": [
           {
-            "id": "b590b61d989d7b9f",
+            "id": "0fcc5809c02d77cf",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -97,7 +97,7 @@
             }
           },
           {
-            "id": "0382a5d980f63476",
+            "id": "9b4858c6150b3d13",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "e5af4d0387218eeb",
+            "id": "3652e69e37b1c177",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "8b6e94697c05a5a1",
+            "id": "bba0b1a092ff1a9c",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -141,33 +141,39 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "e18aba51b440a303",
+  "active": "f98fcbaec74ff7cf",
   "lastOpenFiles": [
+    "Ideas/Functions.md",
     "Ideas/Extended Loops.md",
     "Ideas/Loops.md",
-    "Ideas/Functions.md",
-    "Explanations/Main Function.md",
-    "Ideas/Strings.md",
-    "Setup/remotes.png",
-    "Ideas/Variables.md",
-    "Ideas/Arrays.md",
-    "Explanations/Basic Printf.md",
-    "README.md",
-    "Setup/Setup WSL.md",
-    "Setup/WSL_InFeatures.png",
-    "Setup/WindowsFeatures.png",
-    "Labs/Lab1.md",
     "Templates/Lab Template.md",
     "Templates",
-    "Untitled.md",
+    "Setup/WindowsFeatures.png",
+    "Setup/WSL_InFeatures.png",
+    "Labs/Lab1.md",
     "Labs",
+    "Ideas/Strings.md",
+    "Ideas/Arrays.md",
+    "Explanations/Main Function.md",
+    "Explanations/Basic Printf.md",
     "Explanations",
-    "Untitled.canvas",
-    "Pointers.md"
+    "Ideas/Variables.md",
+    "README.md",
+    "Setup/Compilers.md",
+    "Setup/Setup WSL.md",
+    "ExtendedLoops.md",
+    "Ideas",
+    "Setup/VSCode WSL.md",
+    "Setup/remotes.png",
+    "Setup/extension_menu.png",
+    "Setup/sidebar.png",
+    "Untitled.md",
+    "Setup/Vscode_wsl.md",
+    "Setup/Setup_WSL.md",
+    "Setup"
   ]
 }

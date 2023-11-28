@@ -58,5 +58,12 @@ int a = square(n); // a is now the square of n
 int b = square(5); // b is now the square of 5, so 25, etc
 ```
 
+## What are Arguments/Parameters
 
+Arguments aka Parameters for a function are what you place inside the parenthesis, whether calling or creating a function, there are two main differences however
+```c
+int foo(int a);
+foo(a);
+```
+When creating a function you HAVE to specify the type vs when you call the function you don't. However if you try to call a function with the wrong argument type **YOUR PROGRAM WILL NOT COMPILE**
 
