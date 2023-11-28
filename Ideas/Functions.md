@@ -71,11 +71,13 @@ But arguments are essentially variables local ONLY to the function, and what get
 
 ```c
 int foo(int a){
-	a = 5;
+	a = 5; // local copy of a gets set to 5
 	return 0;
 }
-int a = 0;
+int a = 0; // a is 0
 
+foo(a); // call foo
 
+printf("%d\n", a); // a is STILL 0 because it was a COPY
 
 ```
