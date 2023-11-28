@@ -81,3 +81,23 @@ foo(a); // call foo
 printf("%d\n", a); // a is STILL 0 because it was a COPY
 
 ```
+
+## Void functions
+
+Sometimes you want a function to just DO something, you don't need data back or anything. These are called Void functions, Void will possibly get a whole topic of its own but for now all you need to know is it tells a function that it doesn't return anything.
+
+```c
+int foo(int a){
+	printf("%d\n", a);
+	return 0;
+}
+
+void foo(int a){
+	printf("%d\n", a);
+}
+```
+both of these functions do the same thing, however for the user of the function it is much easier to read the void one as they know NOT to expect anything from it
+
+### Returns in void functions
+
+Return in void acts the same way as previously, stopping the function, however yo
