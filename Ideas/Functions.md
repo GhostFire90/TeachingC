@@ -119,4 +119,5 @@ foo(4);
 foo(5);
 ```
 
-<details><summary>What would this print?</summary></p></details>
+<details><summary>What would this print?</summary>01234</details>
+
