@@ -105,7 +105,7 @@ Return in void acts the same way as previously, stopping the function, however y
 ```c
 void foo(int a){
 
-	if(a > 5){
+	if(a > 4){
 		return;
 	}
 	printf("%d", a);
