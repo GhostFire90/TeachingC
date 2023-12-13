@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "404624bcd48101b6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideas/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideas/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ideas/Functions.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,7 +151,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98fcbaec74ff7cf",
+  "active": "404624bcd48101b6",
   "lastOpenFiles": [
     "Ideas/Functions.md",
     "Ideas/Extended Loops.md",
