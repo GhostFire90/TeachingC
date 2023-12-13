@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f98fcbaec74ff7cf",
+            "id": "404624bcd48101b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Functions.md",
+                "file": "Ideas/Pointers.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "404624bcd48101b6",
+            "id": "a9b758fa0f8d7377",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -151,9 +151,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "404624bcd48101b6",
+  "active": "a9b758fa0f8d7377",
   "lastOpenFiles": [
+    "Ideas/Pointers.md",
     "Ideas/Functions.md",
+    "Ideas/Arrays.md",
+    "Explanations/Basic Printf.md",
     "Ideas/Extended Loops.md",
     "Ideas/Loops.md",
     "Templates/Lab Template.md",
@@ -163,9 +166,7 @@
     "Labs/Lab1.md",
     "Labs",
     "Ideas/Strings.md",
-    "Ideas/Arrays.md",
     "Explanations/Main Function.md",
-    "Explanations/Basic Printf.md",
     "Explanations",
     "Ideas/Variables.md",
     "README.md",

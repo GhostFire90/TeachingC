@@ -39,7 +39,7 @@ below is a table of type specifiers
 | d | Integer value, outputted in decimal |
 | x | Integer value, outputted in hex |
 | c | Character value, outputted in ascii |
-| s | const char* value, outputs a nul-terminated [String](<./../Ideas/String.md>) |
+| s | const char* value, outputs a nul-terminated [String](<./../Ideas/Strings.md>) |
 | p | [Pointer](<./../Ideas/Pointers.md), outputs the address |
 | f | Floating point value (double OR float) |
 
