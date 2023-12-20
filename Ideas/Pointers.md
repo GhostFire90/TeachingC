@@ -33,3 +33,25 @@ this unfortunately prints :
 > i after square 2
 
 this is due to how parameters are *copies* like mentioned in [Functions](<./Functions.md>), this of course can be fixed with return values, however in certain scenarios like wanting multiple values back from a function or [Structs](<./Structs.md>), return values simply arent enough.
+
+So lets fix this function using pointers
+
+##### this is broken atm, dont actually pay attention to this pls
+```c
+// Square is a *function* that takes a *pointer* to an integer
+void square(int* i){
+ i *= i;
+}
+
+int main (void){
+	int i = 2;
+	printf("i before square %d\n", i);
+	square(&i);
+	printf("i after square %d\n", i);
+}
+```
+
+Now what is that `&` sign for? So far we have only covered what pointers ARE, not how to get them. There are two core ways to get a pointer:: 
+1. the `&` symbol says "Give me the address (pointer) of this variable" 
+2. [Dynamic Memory](<./DynamicMemory.md) 
+
