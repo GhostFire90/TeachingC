@@ -12,3 +12,23 @@ int* i;
 that basically means "i is an address that *points* to where an integer lives" 
 
 ## What can we do with this?
+
+say you want a function that squares a number that it is given
+
+```c
+void square(int i){
+ i *= i;
+}
+
+int main (void){
+	int i = 2;
+	printf("i before square %d\n", i);
+	square(i);
+	printf("i after square %d\n", i);
+}
+```
+
+this unfortunately prints :
+> i before square 2
+> i after square 2
+
