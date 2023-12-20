@@ -32,4 +32,4 @@ this unfortunately prints :
 > i before square 2
 > i after square 2
 
-this is due to how parameters are *copies* like mentioned in [Functions](<./Functions.md>)
+this is due to how parameters are *copies* like mentioned in [Functions](<./Functions.md>), this of course can be fixed with return values, however in certain scenarios like wanting multiple values back from a function or [Structs](<./Structs.md>), return values simply arent enough.
