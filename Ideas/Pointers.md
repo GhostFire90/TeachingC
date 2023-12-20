@@ -5,4 +5,8 @@ All a pointer is, is an address to where some chunk of data lives, it is declare
 ```c
 <typename>* varname;
 ```
-the star is important, that is how yo
+the star is important, that is how you know its a pointer.
+```c
+int* i;
+```
+that basically means "i is an address that *points* to where an integer lives"
