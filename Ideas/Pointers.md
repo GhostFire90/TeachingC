@@ -9,4 +9,6 @@ the star is important, that is how you know its a pointer.
 ```c
 int* i;
 ```
-that basically means "i is an address that *points* to where an integer lives"
+that basically means "i is an address that *points* to where an integer lives" 
+
+## What can we do with this?
