@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Ideas/Pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Ideas/Pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Ideas/Pointers.md"
+              }
             }
           }
         ]
@@ -151,10 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9b758fa0f8d7377",
+  "active": "404624bcd48101b6",
   "lastOpenFiles": [
-    "Ideas/Pointers.md",
     "Ideas/Functions.md",
+    "Ideas/Pointers.md",
     "Ideas/Arrays.md",
     "Explanations/Basic Printf.md",
     "Ideas/Extended Loops.md",

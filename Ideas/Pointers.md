@@ -32,4 +32,4 @@ this unfortunately prints :
 > i before square 2
 > i after square 2
 
-this is due to how parameters are *copies* like mentioned in []
+this is due to how parameters are *copies* like mentioned in [Functions](<./Functions.md>)
