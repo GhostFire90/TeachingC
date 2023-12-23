@@ -51,7 +51,7 @@ int main (void){
 }
 ```
 
-Now what is that `&` sign for? So far we have only covered what pointers ARE, not how to get them. There are two core ways to get a pointer:: 
+Now what is that `&` sign for? So far we have only covered what pointers ARE, not how to get them. There are two core ways to get a pointer:
 1. the `&` symbol says "Give me the address (pointer) of this variable" 
 2. [Dynamic Memory](<./DynamicMemory.md) 
 
