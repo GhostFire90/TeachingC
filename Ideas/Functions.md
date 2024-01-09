@@ -123,3 +123,26 @@ foo(5);
 
 
 ## Function Prototypes 
+
+Sometimes you know HOW a function is defined, but don't have the actual definition (the code), you still want the compiler to know it will show up at some point, so we have function prototypes
+lets take `foo` from the last example.
+
+Lets say we have a file named `foo.c` that contains
+```c
+void foo(int a){
+
+	if(a > 4){
+		return;
+	}
+	printf("%d", a);
+
+}
+```
+and a file named `main.c` that contains
+```c
+int main(void){
+	foo(2);
+}
+```
+
+if we attempt to compile this (with the command `cla`)
