@@ -58,4 +58,8 @@ And what's the `*i` mean? That is called *dereferencing* a pointer, basically wh
 this technique is called **Passing By Reference**
 
 ## Arrays
-As mentioned in [Arrays](<./Arrays.md>) they have a unique property of only being passed by reference to functions, unlike every other type that is passed by copy. Thankfully, because of this, C allows you to access pointers just like arrays, be careful with this however, if you try to access a pointer that is one object like an array outside of `ptr[0]` 
+As mentioned in [Arrays](<./Arrays.md>) they have a unique property of only being passed by reference to functions, unlike every other type that is passed by copy. Thankfully, because of this, C allows you to access pointers just like arrays, be careful with this however, if you try to access a pointer that is one object like an array outside of `ptr[0]` you will likely crash your program
+
+it is important to note that you do NOT need to use the `&` to pass an array, C handles that for you
+
+When passed to a function, an array *decays* 
