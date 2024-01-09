@@ -55,4 +55,7 @@ Now what is that `&` sign for? So far we have only covered what pointers ARE, no
 2. [Dynamic Memory](<./DynamicMemory.md) 
 And what's the `*i` mean? That is called *dereferencing* a pointer, basically what it does is says "Go to that address and tell me/change whats there" so `*i *= *i` reads like: "Multiply the *value* at the address `pi` by the *value* at the address `pi`" this will effectively change the value of i to its square.
 
+this technique is called **Passing By Reference**
 
+## Arrays
+As mentioned in [Arrays](<./Arrays.md>) they have a unique property of only being passed by reference to functions, unlike every other type that is passed by copy.  
