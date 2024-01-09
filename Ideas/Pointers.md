@@ -36,11 +36,10 @@ this is due to how parameters are *copies* like mentioned in [Functions](<./Func
 
 So lets fix this function using pointers
 
-##### this is broken atm, dont actually pay attention to this pls
 ```c
 // Square is a *function* that takes a *pointer* to an integer
-void square(int* i){
- i *= i;
+void square(int* pi){
+ *pi *= *pi;
 }
 
 int main (void){
@@ -54,4 +53,6 @@ int main (void){
 Now what is that `&` sign for? So far we have only covered what pointers ARE, not how to get them. There are two core ways to get a pointer:
 1. the `&` symbol says "Give me the address (pointer) of this variable" 
 2. [Dynamic Memory](<./DynamicMemory.md) 
+And what's the `*i` mean? That is called *dereferencing* a pointer, basically what it does is says "Go to that address and tell me/change whats there" so `*i *= *i` reads like: "Multiply the *value* at the address `pi` by the *value* at the address `pi`" this will effectively change the value of i to its square.
+
 
