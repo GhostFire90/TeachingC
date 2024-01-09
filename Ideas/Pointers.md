@@ -62,4 +62,8 @@ As mentioned in [Arrays](<./Arrays.md>) they have a unique property of only bein
 
 it is important to note that you do NOT need to use the `&` to pass an array, C handles that for you
 
-When passed to a function, an array *decays* 
+When passed to a function, an array *decays* into a pointer. This loses the information of how many elements an array contains, you will often see functions like:
+```c
+int add_all(int* arr, int size);
+```
+
