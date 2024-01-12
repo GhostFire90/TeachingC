@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "ba35c05d05be2000",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          },
+          {
             "id": "a9b758fa0f8d7377",
             "type": "leaf",
             "state": {
@@ -27,7 +37,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "404624bcd48101b6",
+  "active": "ba35c05d05be2000",
   "lastOpenFiles": [
     "Ideas/Functions.md",
     "Ideas/Pointers.md",
