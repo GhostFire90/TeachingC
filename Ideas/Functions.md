@@ -121,3 +121,38 @@ foo(5);
 
 <details><summary>What would this print?</summary>01234</details>
 
+
+## Function Prototypes 
+
+Sometimes you know HOW a function is defined, but don't have the actual definition (the code), you still want the compiler to know it will show up at some point, so we have function prototypes
+lets take `foo` from the last example.
+
+Lets say we have a file named `foo.c` that contains
+```c
+void foo(int a){
+
+	if(a > 4){
+		return;
+	}
+	printf("%d", a);
+
+}
+```
+and a file named `main.c` that contains
+```c
+int main(void){
+	foo(2);
+}
+```
+
+if we attempt to compile this (with the command `clang foo.c main.c`) it will fail because the main file doesnt KNOW what foo is, so it doesnt know what arguments or what it even returns.
+
+we can fix this with a prototype, lets modify `main.c` to contain one
+```c
+void foo(int a);
+
+int main(void){
+	foo(2);
+}
+```
+basically all that means is "there IS a function called foo that takes an integer and returns NOTHING", and tells the compiler not to freak out, however if we compile it without `foo.c` it will still freak out as `foo` is never defined but its supposed to exist

@@ -36,11 +36,10 @@ this is due to how parameters are *copies* like mentioned in [Functions](<./Func
 
 So lets fix this function using pointers
 
-##### this is broken atm, dont actually pay attention to this pls
 ```c
 // Square is a *function* that takes a *pointer* to an integer
-void square(int* i){
- i *= i;
+void square(int* pi){
+ *pi *= *pi;
 }
 
 int main (void){
@@ -54,4 +53,17 @@ int main (void){
 Now what is that `&` sign for? So far we have only covered what pointers ARE, not how to get them. There are two core ways to get a pointer:
 1. the `&` symbol says "Give me the address (pointer) of this variable" 
 2. [Dynamic Memory](<./DynamicMemory.md) 
+And what's the `*i` mean? That is called *dereferencing* a pointer, basically what it does is says "Go to that address and tell me/change whats there" so `*i *= *i` reads like: "Multiply the *value* at the address `pi` by the *value* at the address `pi`" this will effectively change the value of i to its square.
 
+this technique is called **Passing By Reference**
+
+## Arrays
+As mentioned in [Arrays](<./Arrays.md>) they have a unique property of only being passed by reference to functions, unlike every other type that is passed by copy. Thankfully, because of this, C allows you to access pointers just like arrays, be careful with this however, if you try to access a pointer that is one object like an array outside of `ptr[0]` you will likely crash your program
+
+it is important to note that you do NOT need to use the `&` to pass an array, C handles that for you
+
+When passed to a function, an array *decays* into a pointer. This loses the information of how many elements an array contains, you will often see functions like:
+```c
+int add_all(int* arr, int size);
+```
+because the function has no way of knowing how many elements are in the array, so it asks you to provide that information
