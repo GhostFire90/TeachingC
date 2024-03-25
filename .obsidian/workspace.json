@@ -8,26 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "404624bcd48101b6",
+            "id": "f98fcbaec74ff7cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Pointers.md",
+                "file": "Ideas/Functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a9b758fa0f8d7377",
+            "id": "0b0dbbebc802ba85",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideas/Pointers.md",
+                "file": "Ideas/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideas/Pointers.md",
+                "file": "Ideas/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ideas/Pointers.md"
+                "file": "Ideas/Functions.md"
               }
             }
           }
@@ -154,14 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "404624bcd48101b6",
+  "active": "0b0dbbebc802ba85",
   "lastOpenFiles": [
-    "New folder",
-    "conflict-files-obsidian-git.md",
     "Ideas/Functions.md",
     "Ideas/Pointers.md",
     "Ideas/Arrays.md",
-    "Explanations/Basic Printf.md",
     "Ideas/Extended Loops.md",
     "Ideas/Loops.md",
     "Templates/Lab Template.md",
@@ -172,6 +170,7 @@
     "Labs",
     "Ideas/Strings.md",
     "Explanations/Main Function.md",
+    "Explanations/Basic Printf.md",
     "Explanations",
     "Ideas/Variables.md",
     "README.md",
