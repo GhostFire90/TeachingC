@@ -18,27 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "769163d81d9a462a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
-            "id": "a9b758fa0f8d7377",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "769163d81d9a462a",
+  "active": "404624bcd48101b6",
   "lastOpenFiles": [
-    "New folder",
     "conflict-files-obsidian-git.md",
-    "Ideas/Functions.md",
     "Ideas/Pointers.md",
+    "New folder",
+    "Ideas/Functions.md",
     "Ideas/Arrays.md",
     "Explanations/Basic Printf.md",
     "Ideas/Extended Loops.md",
