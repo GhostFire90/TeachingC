@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "769163d81d9a462a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
             "id": "a9b758fa0f8d7377",
             "type": "leaf",
             "state": {
@@ -27,7 +37,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "404624bcd48101b6",
+  "active": "769163d81d9a462a",
   "lastOpenFiles": [
     "New folder",
     "conflict-files-obsidian-git.md",
