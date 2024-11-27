@@ -52,7 +52,7 @@ int main (void){
 
 Now what is that `&` sign for? So far we have only covered what pointers ARE, not how to get them. There are two core ways to get a pointer:
 1. the `&` symbol says "Give me the address (pointer) of this variable" 
-2. [Dynamic Memory](<./DynamicMemory.md) 
+2. [Dynamic Memory](<./DynamicMemory.md>) 
 And what's the `*i` mean? That is called *dereferencing* a pointer, basically what it does is says "Go to that address and tell me/change whats there" so `*i *= *i` reads like: "Multiply the *value* at the address `pi` by the *value* at the address `pi`" this will effectively change the value of i to its square.
 
 this technique is called **Passing By Reference**
@@ -67,3 +67,29 @@ When passed to a function, an array *decays* into a pointer. This loses the info
 int add_all(int* arr, int size);
 ```
 because the function has no way of knowing how many elements are in the array, so it asks you to provide that information
+
+## NULL
+So with pointers we commonly use `NULL` to signify "I don't point to anything." This usually means 1 of 2 things. 
+### IMPORTANT
+***DEREFERENCING NULL POINTERS WILL CRASH YOUR PROGRAM***
+### 1. I have not been initialized yet
+usually `NULL` is used as a placeholder for a pointer that hasn't been set yet, for whatever reason. Whether its a user telling a function "Ignore this parameter, I don't care about its output" or just to make sure if someone dereferences it too early the whole program falls over
+### 2. Some error has occurred
+functions that return a pointer (like [malloc](<./DynamicMemory.md#malloc>)) will return `NULL` if something bad happened in the function and it failed
+
+### Handling
+So! How does `NULL` work if we DON'T want either of those situations to crash our program?
+Luckily `NULL` is the same as `0` which as we mentioned in [booleans](<./Variables.md#Boolean>) means it is false, so checks for if a pointer is `NULL` can be written in 2 ways
+```c
+int *i = NULL; // set to null for example
+if(i == NULL){
+	// do something, usually return early or error
+}
+/*
+* OR
+*/
+if(!i){ // since i == 0 == false then !i == 1 == true
+	//once again do something
+}
+
+```
