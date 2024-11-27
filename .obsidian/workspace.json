@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Labs/Lab1.md",
+                "file": "Ideas/Pointers.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Pointers.md",
+                "file": "Ideas/Variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,11 +158,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07fce68cc0c95590",
+  "active": "404624bcd48101b6",
   "lastOpenFiles": [
+    "Ideas/Variables.md",
+    "Ideas/Pointers.md",
     "Labs/Lab1.md",
     "Labs/Lab 2.md",
-    "Ideas/Pointers.md",
     "conflict-files-obsidian-git.md",
     "New folder",
     "Ideas/Functions.md",
@@ -179,7 +179,6 @@
     "Ideas/Strings.md",
     "Explanations/Main Function.md",
     "Explanations",
-    "Ideas/Variables.md",
     "README.md",
     "Setup/Compilers.md",
     "Setup/Setup WSL.md",

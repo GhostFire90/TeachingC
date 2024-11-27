@@ -73,7 +73,21 @@ So with pointers we commonly use `NULL` to signify "I don't point to anything." 
 ### 1. I have not been initialized yet
 usually `NULL` is used as a placeholder for a pointer that hasn't been set yet, for whatever reason. Whether its a user telling a function "Ignore this parameter, I don't care about its output" or just to make sure if someone dereferences it too early the whole program falls over
 ### 2. Some error has occurred
-functions that return a pointer (like [malloc](<./DynamicMemory.md#malloc>)) will return null if something bad happened in the function and it failed
+functions that return a pointer (like [malloc](<./DynamicMemory.md#malloc>)) will return `NULL` if something bad happened in the function and it failed
 
 ### Handling
-So! what can
+So! How does `NULL` work if we DON'T want either of those situations to crash our program?
+Luckily `NULL` is the same as `0` which as we mentioned in [booleans](<./Variables.md#Boolean>) means it is false, so checks for if a pointer is `NULL` can be written in 2 ways
+```c
+int *i = NULL; // set to null for example
+if(i == NULL){
+	// do something, usually return early or error
+}
+/*
+* OR
+*/
+if(!i){
+	//once again do something
+}
+
+```
