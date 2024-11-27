@@ -69,7 +69,9 @@ int add_all(int* arr, int size);
 because the function has no way of knowing how many elements are in the array, so it asks you to provide that information
 
 ## NULL
-So with pointers we commonly use `NULL` to signify "I don't point to anything." This usually means 1 of 2 things
+So with pointers we commonly use `NULL` to signify "I don't point to anything." This usually means 1 of 2 things. 
+### IMPORTANT
+***DEREFERENCING NULL POINTERS WILL CRASH YOUR PROGRAM***
 ### 1. I have not been initialized yet
 usually `NULL` is used as a placeholder for a pointer that hasn't been set yet, for whatever reason. Whether its a user telling a function "Ignore this parameter, I don't care about its output" or just to make sure if someone dereferences it too early the whole program falls over
 ### 2. Some error has occurred
@@ -86,7 +88,7 @@ if(i == NULL){
 /*
 * OR
 */
-if(!i){
+if(!i){ // since i == 0 == false then !i == 1 == true
 	//once again do something
 }
 

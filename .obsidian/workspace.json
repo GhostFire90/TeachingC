@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Pointers.md",
+                "file": "Ideas/Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideas/Pointers.md",
+                "file": "Ideas/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideas/Pointers.md",
+                "file": "Ideas/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ideas/Pointers.md"
+                "file": "Ideas/Arrays.md"
               }
             }
           }
@@ -160,8 +160,9 @@
   },
   "active": "404624bcd48101b6",
   "lastOpenFiles": [
-    "Ideas/Variables.md",
+    "Ideas/Extended Loops.md",
     "Ideas/Pointers.md",
+    "Ideas/Variables.md",
     "Labs/Lab1.md",
     "Labs/Lab 2.md",
     "conflict-files-obsidian-git.md",
@@ -169,7 +170,6 @@
     "Ideas/Functions.md",
     "Ideas/Arrays.md",
     "Explanations/Basic Printf.md",
-    "Ideas/Extended Loops.md",
     "Ideas/Loops.md",
     "Templates/Lab Template.md",
     "Templates",
