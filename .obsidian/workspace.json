@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Scopes.md",
+                "file": "Ideas/Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideas/Scopes.md",
+                "file": "Ideas/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideas/Scopes.md",
+                "file": "Ideas/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ideas/Scopes.md"
+                "file": "Ideas/Functions.md"
               }
             }
           }
@@ -160,25 +160,25 @@
   },
   "active": "404624bcd48101b6",
   "lastOpenFiles": [
-    "Ideas/Variables.md",
-    "Ideas/Scopes.md",
-    "Ideas/Functions.md",
-    "Ideas/Arrays.md",
     "Ideas/Loops.md",
+    "Ideas/Functions.md",
+    "Ideas/Scopes.md",
+    "Explanations/Basic Printf.md",
+    "Explanations/Main Function.md",
+    "Ideas/Strings.md",
+    "Ideas/Variables.md",
+    "Ideas/Arrays.md",
     "Ideas/Extended Loops.md",
     "Ideas/Pointers.md",
     "Labs/Lab1.md",
     "Labs/Lab 2.md",
     "conflict-files-obsidian-git.md",
     "New folder",
-    "Explanations/Basic Printf.md",
     "Templates/Lab Template.md",
     "Templates",
     "Setup/WindowsFeatures.png",
     "Setup/WSL_InFeatures.png",
     "Labs",
-    "Ideas/Strings.md",
-    "Explanations/Main Function.md",
     "Explanations",
     "README.md",
     "Setup/Compilers.md",
