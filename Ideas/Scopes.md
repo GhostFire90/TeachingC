@@ -11,3 +11,10 @@ Every scope has:
 1. A beginning (Opening the box)
 2. A body (putting things in and doing things with the things inside the box)
 3. An end (closing the box)
+
+Some example in code
+```c
+{ // OPEN DA BOX
+
+} /
+```
