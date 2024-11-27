@@ -52,7 +52,7 @@ int main (void){
 
 Now what is that `&` sign for? So far we have only covered what pointers ARE, not how to get them. There are two core ways to get a pointer:
 1. the `&` symbol says "Give me the address (pointer) of this variable" 
-2. [Dynamic Memory](<./DynamicMemory.md) 
+2. [Dynamic Memory](<./DynamicMemory.md>) 
 And what's the `*i` mean? That is called *dereferencing* a pointer, basically what it does is says "Go to that address and tell me/change whats there" so `*i *= *i` reads like: "Multiply the *value* at the address `pi` by the *value* at the address `pi`" this will effectively change the value of i to its square.
 
 this technique is called **Passing By Reference**
