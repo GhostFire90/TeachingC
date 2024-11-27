@@ -69,4 +69,4 @@ int add_all(int* arr, int size);
 because the function has no way of knowing how many elements are in the array, so it asks you to provide that information
 
 ## NULL
-So with a
+So with pointers we commonly use `NULL` to signify "I don't point to anything"
