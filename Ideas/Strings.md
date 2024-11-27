@@ -9,4 +9,5 @@ this is laid out in array format like
 | 0 | 1 | 2 | 3 | 4 | 5 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |'h'|'e'|'l'|'l'|'0'|'\\0'|
+
 where the [Escape Sequence](<./../Explanations/Escape Sequences.md>) '\\0' represents the nul terminator, aka 0 
