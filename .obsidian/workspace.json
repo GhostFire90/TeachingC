@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2881b5fe70541be4",
+        "id": "d2f9196c8b546d00",
         "type": "tabs",
         "children": [
           {
-            "id": "404624bcd48101b6",
+            "id": "a076d1979c2eca3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Includes.md",
+                "file": "Ideas/Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Includes"
+              "title": "Variables"
+            }
+          },
+          {
+            "id": "427c67df1052b8b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ideas/Pointers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pointers"
             }
           }
         ]
@@ -163,22 +177,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "404624bcd48101b6",
+  "active": "a076d1979c2eca3d",
   "lastOpenFiles": [
+    "Ideas/Loops.md",
+    "Ideas/Pointers.md",
+    "Labs/Lab2.md",
     "Ideas/Functions.md",
+    "Labs/Lab1.md",
+    "Labs/Lab 2.md",
+    "Templates/Lab Template.md",
+    "README.md",
+    "Explanations/Basic Printf.md",
     "Ideas/Includes.md",
     "conflict-files-obsidian-git.md",
     "Ideas/Scopes.md",
-    "Explanations/Basic Printf.md",
     "Explanations/Main Function.md",
-    "Labs/Lab1.md",
-    "Labs/Lab 2.md",
-    "Ideas/Pointers.md",
     "New folder",
     "Ideas/Arrays.md",
     "Ideas/Extended Loops.md",
-    "Ideas/Loops.md",
-    "Templates/Lab Template.md",
     "Templates",
     "Setup/WindowsFeatures.png",
     "Setup/WSL_InFeatures.png",
@@ -186,7 +202,6 @@
     "Ideas/Strings.md",
     "Explanations",
     "Ideas/Variables.md",
-    "README.md",
     "Setup/Compilers.md",
     "Setup/Setup WSL.md",
     "ExtendedLoops.md",
