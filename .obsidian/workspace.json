@@ -23,9 +23,11 @@
             "id": "07fce68cc0c95590",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "Ideas/Pointers.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Labs/Lab1.md",
+                "file": "Ideas/Pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Labs/Lab1.md",
+                "file": "Ideas/Pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Labs/Lab1.md"
+                "file": "Ideas/Pointers.md"
               }
             }
           }
@@ -157,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2dbe21390134eb9",
+  "active": "07fce68cc0c95590",
   "lastOpenFiles": [
-    "Labs/Lab 2.md",
     "Labs/Lab1.md",
+    "Labs/Lab 2.md",
     "Ideas/Pointers.md",
     "conflict-files-obsidian-git.md",
     "New folder",

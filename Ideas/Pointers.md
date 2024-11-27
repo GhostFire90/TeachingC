@@ -67,3 +67,6 @@ When passed to a function, an array *decays* into a pointer. This loses the info
 int add_all(int* arr, int size);
 ```
 because the function has no way of knowing how many elements are in the array, so it asks you to provide that information
+
+## NULL
+So with a
