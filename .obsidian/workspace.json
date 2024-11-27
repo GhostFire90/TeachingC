@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "07fce68cc0c95590",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "404624bcd48101b6",
+  "active": "a2dbe21390134eb9",
   "lastOpenFiles": [
     "Labs/Lab 2.md",
     "Labs/Lab1.md",
