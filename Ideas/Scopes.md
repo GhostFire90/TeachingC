@@ -9,4 +9,5 @@ So what is a scope?
 Think of a scope as a little box that you open, put things in and close.
 Every scope has:
 1. A beginning (Opening the box)
-2. 
+2. A body (putting things in and doing things with the things inside the box)
+3. An end (closing the box)
