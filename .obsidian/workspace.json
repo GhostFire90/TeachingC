@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Labs/Lab1.md",
+                "file": "Ideas/Includes.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Includes"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lab1"
             }
           },
           {
@@ -105,7 +115,9 @@
                 "file": "Labs/Lab1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lab1"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,7 +140,9 @@
               "type": "outline",
               "state": {
                 "file": "Labs/Lab1.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lab1"
             }
           }
         ]
@@ -148,14 +164,16 @@
   },
   "active": "404624bcd48101b6",
   "lastOpenFiles": [
-    "Labs/Lab 2.md",
+    "Ideas/Functions.md",
+    "Ideas/Includes.md",
+    "Explanations/Basic Printf.md",
+    "Explanations/Main Function.md",
     "Labs/Lab1.md",
+    "Labs/Lab 2.md",
     "Ideas/Pointers.md",
     "conflict-files-obsidian-git.md",
     "New folder",
-    "Ideas/Functions.md",
     "Ideas/Arrays.md",
-    "Explanations/Basic Printf.md",
     "Ideas/Extended Loops.md",
     "Ideas/Loops.md",
     "Templates/Lab Template.md",
@@ -164,7 +182,6 @@
     "Setup/WSL_InFeatures.png",
     "Labs",
     "Ideas/Strings.md",
-    "Explanations/Main Function.md",
     "Explanations",
     "Ideas/Variables.md",
     "README.md",
