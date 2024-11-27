@@ -47,3 +47,6 @@ While in the above examples I'm only doing free-standing scopes, every time you 
 
 ### Phrases
 So back to the phrases mentioned in the beginning
+1. In scope : Means accessible in the current scope
+2. Out of scope : for whatever reason, it is not available in the current scope
+3. going out of scope : describing when a scope ends and all of the variables become inaccessible 
