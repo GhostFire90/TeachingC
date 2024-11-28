@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Functions.md",
+                "file": "Labs/Lab 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideas/Functions.md",
+                "file": "Labs/Lab 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideas/Functions.md",
+                "file": "Labs/Lab 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ideas/Functions.md"
+                "file": "Labs/Lab 2.md"
               }
             }
           }
@@ -160,18 +160,18 @@
   },
   "active": "404624bcd48101b6",
   "lastOpenFiles": [
-    "Ideas/Loops.md",
-    "Ideas/Functions.md",
-    "Ideas/Scopes.md",
-    "Explanations/Basic Printf.md",
-    "Explanations/Main Function.md",
-    "Ideas/Strings.md",
-    "Ideas/Variables.md",
-    "Ideas/Arrays.md",
-    "Ideas/Extended Loops.md",
-    "Ideas/Pointers.md",
     "Labs/Lab1.md",
     "Labs/Lab 2.md",
+    "Ideas/Variables.md",
+    "Ideas/Strings.md",
+    "Ideas/Scopes.md",
+    "Ideas/Pointers.md",
+    "Ideas/Loops.md",
+    "Ideas/Functions.md",
+    "Explanations/Basic Printf.md",
+    "Explanations/Main Function.md",
+    "Ideas/Arrays.md",
+    "Ideas/Extended Loops.md",
     "conflict-files-obsidian-git.md",
     "New folder",
     "Templates/Lab Template.md",
