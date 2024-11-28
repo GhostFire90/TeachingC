@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Labs/Lab 2.md",
+                "file": "Labs/Lab1.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Labs/Lab 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Labs/Lab 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Labs/Lab 2.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -158,10 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "404624bcd48101b6",
+  "active": "a2dbe21390134eb9",
   "lastOpenFiles": [
     "Labs/Lab1.md",
+    "conflict-files-obsidian-git.md",
+    "Labs/Lab2.md",
     "Labs/Lab 2.md",
+    "Ideas/Includes.md",
     "Ideas/Variables.md",
     "Ideas/Strings.md",
     "Ideas/Scopes.md",
@@ -172,7 +173,6 @@
     "Explanations/Main Function.md",
     "Ideas/Arrays.md",
     "Ideas/Extended Loops.md",
-    "conflict-files-obsidian-git.md",
     "New folder",
     "Templates/Lab Template.md",
     "Templates",
