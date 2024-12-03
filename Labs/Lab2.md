@@ -23,7 +23,7 @@ array_sum({1, 2, 3}, {4, 5, 6}, 3) = 21
 
 ### Considerations
 - What if one array is smaller than the other?
-- What if either of the arrays are [`NULL`](<./../Ideas/Pointers.md#NULL>)  
+- What if either of the array pointers are [`NULL`](<./../Ideas/Pointers.md#NULL>)  
 - What if length is negative? how should we go about fixing this?
 ### Assumptions
 - Assume the length is as long as the shortest array, dont worry about it being longer

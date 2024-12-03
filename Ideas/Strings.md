@@ -4,7 +4,7 @@ Strings are essentially an [Array](<./Arrays.md>) of characters with the last el
 const char* message = "hello";
 ```
 
-this is laid out in array format like 
+this is laid out in [array](<./Arrays.md>) format like 
 
 | 0 | 1 | 2 | 3 | 4 | 5 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
